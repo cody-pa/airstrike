@@ -1,0 +1,4 @@
+ps aux | grep -i $1 | while read user id other
+do
+    kill $id
+done
